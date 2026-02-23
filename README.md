@@ -1,0 +1,2 @@
+# -NVIDIA-Stock-Price-Forecasting-ARIMA-Time-Series-Analysis-Python-
+Forecasted NVIDIA’s monthly closing price six months ahead using ARIMA and Exponential Smoothing on 66 months of Nasdaq data. Conducted ADF and ACF/PACF diagnostics to guide model specification. ARIMA(0,1,0) achieved lowest forecast error (MAPE 0.83%), outperforming regression and trend-based models under volatile market conditions.
