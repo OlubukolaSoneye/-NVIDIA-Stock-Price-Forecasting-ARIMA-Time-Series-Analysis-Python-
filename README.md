@@ -21,7 +21,13 @@ predictions under volatile market dynamics.
 - **Processing:** Daily prices aggregated to monthly using end-of-month 
   resampling
 - **Characteristics:** Strong upward trend from 2023, widening volatility, 
-  non-stationary price levels 
+  non-stationary price levels
+
+  **Figure 1: NVIDIA Monthly Closing Price (Linear Scale)**
+The series shows a pronounced upward movement from 2023, coinciding with 
+heightened market interest in AI and data centre investment, alongside 
+widening volatility consistent with a non-stationary process.
+
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.48.30.png" width="700"/>
 </p>
@@ -32,10 +38,16 @@ predictions under volatile market dynamics.
 
 ## 🔬 Methodology
 
-**Stationarity Testing**
+## Stationarity Testing
 The Augmented Dickey-Fuller test confirmed non-stationarity in price 
 levels. First differencing of log prices achieved stationarity 
 (ADF statistic: −7.61, p < 0.001).
+
+
+**Figure 2: Multiplicative Decomposition**
+Decomposition confirms a dominant non-linear upward trend with negligible 
+seasonal effects. Multiplicative residuals cluster around zero with 
+homogeneous variance, confirming level-dependent variability in the series.
 
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.52.01.png" width="700"/>
@@ -60,6 +72,12 @@ optimal specification.
 | SARIMA | Higher than ARIMA | — | — |
 | Regression | 30.72 | 1215.83 | 16.32% |
 | Historical Mean | 119.05 | 14,175.29 | 63.59% |
+
+
+**Figure 4: Six-Month Forecasts — All Models vs Actual**
+Simpler models tracking recent observations closely outperform those 
+imposing fixed trend or seasonal structure. The divergence between 
+model groups is pronounced over the forecast horizon.
 
 <p align="left">
   <img src="Screenshot 2026-02-24 at 00.39.07.png" width="700"/>
