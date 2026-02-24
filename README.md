@@ -94,10 +94,7 @@ improving accuracy — a finding with practical implications for
 short-term financial forecasting and model selection.
 
 ## 🛠 Tech Stack
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Statsmodels](https://img.shields.io/badge/Statsmodels-4051B5?style=flat)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+Python (Pandas, Statsmodels, Matplotlib)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 ## 📬 Contact
