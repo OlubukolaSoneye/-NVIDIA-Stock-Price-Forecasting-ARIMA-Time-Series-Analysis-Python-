@@ -27,17 +27,14 @@ predictions under volatile market dynamics.
 The series shows a pronounced upward movement from 2023, coinciding with 
 heightened market interest in AI and data centre investment, alongside 
 widening volatility consistent with a non-stationary process.
-
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.48.30.png" width="700"/>
 </p>
-
 
 **Figure 2: Multiplicative Decomposition**
 Decomposition confirms a dominant non-linear upward trend with negligible 
 seasonal effects. Multiplicative residuals cluster around zero with 
 homogeneous variance, confirming level-dependent variability in the series.
-
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.50.24.png" width="700"/>
 </p>
@@ -53,7 +50,6 @@ levels. First differencing of log prices achieved stationarity
 All lags fall within the 95% confidence bounds, confirming the absence 
 of serial correlation and supporting the random-walk characterisation 
 of NVIDIA's monthly returns.
-
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.52.01.png" width="700"/>
 </p>
@@ -82,7 +78,6 @@ optimal specification.
 Simpler models tracking recent observations closely outperform those 
 imposing fixed trend or seasonal structure. The divergence between 
 model groups is pronounced over the forecast horizon.
-
 <p align="left">
   <img src="Screenshot 2026-02-24 at 00.39.07.png" width="700"/>
 </p>
@@ -102,16 +97,18 @@ model groups is pronounced over the forecast horizon.
 The optimal model produces a flat forecast equal to the final training 
 value, consistent with random-walk dynamics where future price changes 
 are driven by unpredictable innovations rather than past patterns.
-
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.55.05.png" width="700"/>
 </p>
 
-
+**Figure 6: ARIMA(0,1,0) Residual Diagnostics**
+Residuals oscillate around zero with no significant autocorrelation 
+confirmed by a non-significant Ljung-Box test (p = 0.999). While mild 
+non-normality is present in the upper tail, the absence of serial 
+correlation validates the model for forecasting purposes.
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.56.41.png" width="700"/>
 </p>
-
 
 ## 💡 Conclusion
 For volatile equity time series exhibiting near-random-walk dynamics, 
