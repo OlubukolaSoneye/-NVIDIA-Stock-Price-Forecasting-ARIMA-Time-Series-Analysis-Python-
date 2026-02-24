@@ -61,7 +61,6 @@ optimal specification.
 
 
 ## 📊 Results
-
 | Model | MAE | MSE | MAPE |
 |-------|-----|-----|------|
 | Simple Exponential Smoothing | 1.57 | 2.90 | 0.83% |
@@ -73,6 +72,7 @@ optimal specification.
 | SARIMA | Higher than ARIMA | — | — |
 | Regression | 30.72 | 1215.83 | 16.32% |
 | Historical Mean | 119.05 | 14,175.29 | 63.59% |
+
 
 **Figure 4: Six-Month Forecasts — All Models vs Actual**
 Simpler models tracking recent observations closely outperform those 
