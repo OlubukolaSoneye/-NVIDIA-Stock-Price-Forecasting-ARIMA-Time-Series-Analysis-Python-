@@ -36,28 +36,14 @@ predictions under volatile market dynamics.
 The Augmented Dickey-Fuller test confirmed non-stationarity in price 
 levels. First differencing of log prices achieved stationarity 
 (ADF statistic: −7.61, p < 0.001).
-<img src="Screenshot 2026-02-23 at 23.52.01.png" width="400"/>
 
 **Model Selection**
 ACF and PACF analysis of the differenced series revealed no significant 
 autocorrelation at any lag, guiding selection of ARIMA(0,1,0) as the 
 optimal specification.
 
-**Models Benchmarked**
-| Model | Type |
-|-------|------|
-| Naïve | Baseline |
-| Historical Mean | Baseline |
-| Simple Moving Average (3-month) | Classical |
-| Simple Exponential Smoothing | Classical |
-| Holt's Linear Trend | Classical |
-| Holt-Winters | Classical |
-| ARIMA(0,1,0) | Statistical |
-| SARIMA(0,1,0)(0,0,1)₁₂ | Statistical |
-| Regression (lagged returns) | Statistical |
 
 ## 📊 Results
-<img src="Screenshot 2026-02-23 at 23.53.48.png"400"/>
 
 | Model | MAE | MSE | MAPE |
 |-------|-----|-----|------|
