@@ -21,8 +21,8 @@ predictions under volatile market dynamics.
 - **Processing:** Daily prices aggregated to monthly using end-of-month 
   resampling
 - **Characteristics:** Strong upward trend from 2023, widening volatility, 
-  non-stationary price levels
-  <p align="center">
+  non-stationary price levels 
+    <p align="center">
   <img src="Screenshot 2026-02-23 at 23.48.30.png"250"/>
 </p>
 
