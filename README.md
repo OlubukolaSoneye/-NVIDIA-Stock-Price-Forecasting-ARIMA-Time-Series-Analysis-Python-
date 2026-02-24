@@ -1,4 +1,4 @@
-# 📈 NVIDIA Stock Price Forecasting | Time Series Modelling
+## 📈 NVIDIA Stock Price Forecasting | Time Series Modelling
 
 ## 💼 Business Context
 Forecasting equity prices is central to portfolio management, risk 
@@ -18,12 +18,16 @@ predictions under volatile market dynamics.
 ## 📁 Dataset
 - **Source:** Nasdaq.com
 - **Period:** 66 monthly observations
-- **Processing:** Daily prices aggregated to monthly using end-of-month resampling
+- **Processing:** Daily prices aggregated to monthly using end-of-month 
+  resampling
 - **Characteristics:** Strong upward trend from 2023, widening volatility, 
-  non-stationary price levels
+  non-stationary price levels 
+<p align="left">
+  <img src="Screenshot 2026-02-23 at 23.48.30.png" width="700"/>
+</p>
 
 <p align="left">
-  <img src="nvda_linear_price.png" width="700"/>
+  <img src="Screenshot 2026-02-23 at 23.50.24.png" width="700"/>
 </p>
 
 ## 🔬 Methodology
@@ -34,7 +38,7 @@ levels. First differencing of log prices achieved stationarity
 (ADF statistic: −7.61, p < 0.001).
 
 <p align="left">
-  <img src="nvda_decomposition.png" width="700"/>
+  <img src="Screenshot 2026-02-23 at 23.52.01.png" width="700"/>
 </p>
 
 **Model Selection**
@@ -42,15 +46,8 @@ ACF and PACF analysis of the differenced series revealed no significant
 autocorrelation at any lag, guiding selection of ARIMA(0,1,0) as the 
 optimal specification.
 
-<p align="left">
-  <img src="nvda_acf_pacf.png" width="700"/>
-</p>
 
 ## 📊 Results
-
-<p align="left">
-  <img src="nvda_forecasts_comparison.png" width="700"/>
-</p>
 
 | Model | MAE | MSE | MAPE |
 |-------|-----|-----|------|
@@ -65,8 +62,9 @@ optimal specification.
 | Historical Mean | 119.05 | 14,175.29 | 63.59% |
 
 <p align="left">
-  <img src="nvda_arima_forecast.png" width="700"/>
+  <img src="Screenshot 2026-02-24 at 00.39.07.png" width="700"/>
 </p>
+
 
 ## 🔍 Key Findings
 - ARIMA(0,1,0) and SES achieved the lowest forecast errors (MAPE 0.83%)
@@ -74,10 +72,19 @@ optimal specification.
   performed substantially worse
 - Regression produced the highest error at MAPE 16.32% — lagged returns 
   carry no meaningful predictive signal for this series
-- Results consistent with near-random-walk behaviour, where price changes 
-  are driven by unpredictable innovations rather than stable patterns
+- Results are consistent with near-random-walk behaviour, where price 
+  changes are driven by unpredictable innovations rather than stable patterns
 - Findings support the principle of parsimony in financial time series 
   forecasting
+
+<p align="left">
+  <img src="Screenshot 2026-02-23 at 23.55.05.png" width="700"/>
+</p>
+
+<p align="left">
+  <img src="Screenshot 2026-02-23 at 23.56.41.png" width="700"/>
+</p>
+
 
 ## 💡 Conclusion
 For volatile equity time series exhibiting near-random-walk dynamics, 
@@ -88,4 +95,9 @@ short-term financial forecasting and model selection.
 
 ## 🛠 Tech Stack
 Python (Pandas, Statsmodels, Matplotlib, Jupyter)
+
+## 📬 Contact
+Made by Bukola Soneye
+🔗 LinkedIn: https://linkedin.com/in/bukola-soneye/
+
 
