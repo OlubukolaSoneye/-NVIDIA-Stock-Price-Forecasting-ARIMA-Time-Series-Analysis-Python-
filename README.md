@@ -70,9 +70,13 @@ optimal specification.
 | SARIMA | Higher than ARIMA | — | — |
 | Regression | 30.72 | 1215.83 | 16.32% |
 | Historical Mean | 119.05 | 14,175.29 | 63.59% |
+<p align="center">
+  <img src="Screenshot 2026-02-23 at 23.52.01.png" width="700"/>
+</p>
 
-<img src="Screenshot 2026-02-23 at 23.55.16.png" width="400"/>
-<img src="Screenshot 2026-02-23 at 23.56.41.png" width="400"/>
+<p align="center">
+  <img src="Screenshot 2026-02-23 at 23.55.05.png" width="700"/>
+</p>
 
 
 ## 🔍 Key Findings
