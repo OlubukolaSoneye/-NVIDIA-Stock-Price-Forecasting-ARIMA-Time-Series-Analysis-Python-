@@ -23,11 +23,11 @@ predictions under volatile market dynamics.
 - **Characteristics:** Strong upward trend from 2023, widening volatility, 
   non-stationary price levels 
 <p align="center">
-  <img src="nvda_linear_price.png" width="700"/>
+  <img src="Screenshot 2026-02-23 at 23.48.30.png" width="700"/>
 </p>
 
 <p align="center">
-  <img src="nvda_decomposition.png" width="700"/>
+  <img src="Screenshot 2026-02-23 at 23.50.24.png" width="700"/>
 </p>
 
 ## 🔬 Methodology
