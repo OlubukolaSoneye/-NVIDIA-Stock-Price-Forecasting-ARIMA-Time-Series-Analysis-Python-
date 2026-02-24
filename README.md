@@ -22,11 +22,11 @@ predictions under volatile market dynamics.
   resampling
 - **Characteristics:** Strong upward trend from 2023, widening volatility, 
   non-stationary price levels 
-<p align="center">
+<p align="left">
   <img src="Screenshot 2026-02-23 at 23.48.30.png" width="700"/>
 </p>
 
-<p align="center">
+<p align="left">
   <img src="Screenshot 2026-02-23 at 23.50.24.png" width="700"/>
 </p>
 
@@ -68,11 +68,11 @@ optimal specification.
 - Findings support the principle of parsimony in financial time series 
   forecasting
 
- <p align="center">
+ <p align="left">
   <img src="Screenshot 2026-02-23 at 23.52.01.png" width="700"/>
 </p>
 
-<p align="center">
+<p align="left">
   <img src="Screenshot 2026-02-23 at 23.55.05.png" width="700"/>
 </p>
 
