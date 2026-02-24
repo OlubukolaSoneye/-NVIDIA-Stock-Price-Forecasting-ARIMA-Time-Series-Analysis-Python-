@@ -37,6 +37,10 @@ The Augmented Dickey-Fuller test confirmed non-stationarity in price
 levels. First differencing of log prices achieved stationarity 
 (ADF statistic: −7.61, p < 0.001).
 
+<p align="left">
+  <img src="Screenshot 2026-02-23 at 23.52.01.png" width="700"/>
+</p>
+
 **Model Selection**
 ACF and PACF analysis of the differenced series revealed no significant 
 autocorrelation at any lag, guiding selection of ARIMA(0,1,0) as the 
@@ -57,6 +61,11 @@ optimal specification.
 | Regression | 30.72 | 1215.83 | 16.32% |
 | Historical Mean | 119.05 | 14,175.29 | 63.59% |
 
+<p align="left">
+  <img src="Screenshot 2026-02-24 at 00.39.07.png" width="700"/>
+</p>
+
+
 ## 🔍 Key Findings
 - ARIMA(0,1,0) and SES achieved the lowest forecast errors (MAPE 0.83%)
 - Complex models incorporating trend, seasonality or lagged returns 
@@ -68,12 +77,12 @@ optimal specification.
 - Findings support the principle of parsimony in financial time series 
   forecasting
 
- <p align="left">
-  <img src="Screenshot 2026-02-23 at 23.52.01.png" width="700"/>
+<p align="left">
+  <img src="Screenshot 2026-02-23 at 23.55.05.png" width="700"/>
 </p>
 
 <p align="left">
-  <img src="Screenshot 2026-02-23 at 23.55.05.png" width="700"/>
+  <img src="Screenshot 2026-02-23 at 23.56.41.png" width="700"/>
 </p>
 
 
