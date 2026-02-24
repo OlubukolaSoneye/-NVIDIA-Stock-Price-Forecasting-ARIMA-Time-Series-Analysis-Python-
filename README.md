@@ -22,8 +22,9 @@ predictions under volatile market dynamics.
   resampling
 - **Characteristics:** Strong upward trend from 2023, widening volatility, 
   non-stationary price levels
-<img src="Screenshot 2026-02-23 at 23.48.30.png" width="400"/>
-<img src="Screenshot 2026-02-23 at 23.50.24.png" width="400"/>
+  <img src="Screenshot 2026-02-23 at 23.48.30.png" width="500"/>
+  <img src="Screenshot 2026-02-23 at 23.50.24.png" width="500"/>
+
 
 ## 🔬 Methodology
 
