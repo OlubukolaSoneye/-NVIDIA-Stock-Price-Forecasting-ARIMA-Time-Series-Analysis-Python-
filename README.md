@@ -32,6 +32,12 @@ widening volatility consistent with a non-stationary process.
   <img src="Screenshot 2026-02-23 at 23.48.30.png" width="700"/>
 </p>
 
+
+**Figure 2: Multiplicative Decomposition**
+Decomposition confirms a dominant non-linear upward trend with negligible 
+seasonal effects. Multiplicative residuals cluster around zero with 
+homogeneous variance, confirming level-dependent variability in the series.
+
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.50.24.png" width="700"/>
 </p>
@@ -43,11 +49,10 @@ The Augmented Dickey-Fuller test confirmed non-stationarity in price
 levels. First differencing of log prices achieved stationarity 
 (ADF statistic: −7.61, p < 0.001).
 
-
-**Figure 2: Multiplicative Decomposition**
-Decomposition confirms a dominant non-linear upward trend with negligible 
-seasonal effects. Multiplicative residuals cluster around zero with 
-homogeneous variance, confirming level-dependent variability in the series.
+**Figure 3: ACF and PACF of Monthly Log Returns**
+All lags fall within the 95% confidence bounds, confirming the absence 
+of serial correlation and supporting the random-walk characterisation 
+of NVIDIA's monthly returns.
 
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.52.01.png" width="700"/>
@@ -73,7 +78,6 @@ optimal specification.
 | Regression | 30.72 | 1215.83 | 16.32% |
 | Historical Mean | 119.05 | 14,175.29 | 63.59% |
 
-
 **Figure 4: Six-Month Forecasts — All Models vs Actual**
 Simpler models tracking recent observations closely outperform those 
 imposing fixed trend or seasonal structure. The divergence between 
@@ -82,7 +86,6 @@ model groups is pronounced over the forecast horizon.
 <p align="left">
   <img src="Screenshot 2026-02-24 at 00.39.07.png" width="700"/>
 </p>
-
 
 ## 🔍 Key Findings
 - ARIMA(0,1,0) and SES achieved the lowest forecast errors (MAPE 0.83%)
@@ -95,9 +98,15 @@ model groups is pronounced over the forecast horizon.
 - Findings support the principle of parsimony in financial time series 
   forecasting
 
+**Figure 5: ARIMA(0,1,0) Six-Month Forward Forecast**
+The optimal model produces a flat forecast equal to the final training 
+value, consistent with random-walk dynamics where future price changes 
+are driven by unpredictable innovations rather than past patterns.
+
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.55.05.png" width="700"/>
 </p>
+
 
 <p align="left">
   <img src="Screenshot 2026-02-23 at 23.56.41.png" width="700"/>
